@@ -1,0 +1,4 @@
+dist/
+*.chex
+chplus_modules/
+chplus.lock

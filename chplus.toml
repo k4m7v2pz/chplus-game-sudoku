@@ -1,0 +1,15 @@
+# CH+ 项目配置 — sudoku
+[package]
+name = "sudoku"
+version = "0.1.0"
+entry = "主函数.ch"
+
+[profile.dev]
+opt_level = 0
+debug = true
+
+[profile.release]
+opt_level = 2
+debug = false
+
+[dependencies]
